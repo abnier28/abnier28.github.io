@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi sitio web</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    .row {
+      padding: 50px;
+      padding-bottom: 50px;
+    }
+
+    .bg-primary {
+      background-color: #0e538c !important;
+    }
+  </style>
+</head>
+
+<body class="bg-primary">
+
+  <div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Mi CV</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <!--navbar-->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="page" href="#datos">Datos basicos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="page" href="#educacion">Educación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="page" href="#experiencia">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="page" href="#habilidades">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="page" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Datos basicos-->
+    <div class="card mt-3">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-12">
+            <!--El .text-primary es el que le da color a alas letra segun bosstra-->
+            <h1 id="Datos" class="text-primary">Datos basico</h1>
+          </div>
+          <div class="col-8">
+            <h2>Abnier pérez cano</h2>
+            <p>Developer</p>
+            <p>23 años, soltero</p>
+          </div>
+          <div class="col-4">
+            <img src="abnier.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Educación-->
+    <div class="card mt-3">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-12">
+            <h1 id="educacion" class="text-primary">Educación</h1>
+          </div>
+          <div class="col-8">
+            <h2>Instituto tecnologico superior de la region sierra</h2>
+            <p>Ingeniero Informatica</p>
+          </div>
+          <div class="col-4">
+            <p>2022-205</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--Experiencia-->
+    <div class="card mt-3">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-12">
+            <h1 id="experiencia" class="text-primary">Experiencia</h1>
+          </div>
+          <div class="col-8">
+            <h2>Mantenimiento preventido y correctivo de PC</h2>
+            <p></p>
+          </div>
+          <div class="col-4">
+            <p>2010-2015</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!--Habilidades-->
+    <div class="card mt-3">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-12">
+            <h1 id="habilidades" class="text-primary">Habilidades</h1>
+          </div>
+          <div class="col-11">
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                liderazgo
+                <span class="badge text-bg-success rounded-pill">90</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Organizativas
+                <span class="badge text-bg-success rounded-pill">80</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Resolución de Problemas
+                <span class="badge text-bg-success rounded-pill">90</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Conocimientos Técnicos
+                <span class="badge text-bg-success rounded-pill">95</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!--Contacto-->
+    <div class="card mt-3">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-12">
+            <h1 id="contacto" class="text-primary">Contacto</h1>
+          </div>
+          <div class="col-4">
+            <p>Tacotalpa, tabasco mexico, cp86978</p>
+            <p>9931943163 </p>
+            <p>abnier19@gmail.com</p>
+            <p><a href="">Facebook</a></p>
+            <p><a href="">Twiter</a></p>
+            <p><a href="">intagram</a></p>
+          </div>
+          <div class="col-8 bg-secondary">
+            <form>
+              <div class="row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+
+              <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Comentario</label>
+                <div class="col-sm-10">
+                  <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary mb-3 ">Enviar</button>
+            </form>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+    <!--foter-->
+    <footer>
+      <p class="text-center">Mi pagina web, todos los derechos</p>
+    </footer>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</body>
+
+</html>
